@@ -5,3 +5,4 @@
 - [ ] Check scenic drives
 - [ ] Update vaccine schedule
 - [ ] Update home assistant - backup script and dashboard
+- [ ] Transfer ios notes
