@@ -1,0 +1,7 @@
+- [ ] Self-care
+- [ ] Chores
+- [ ] Tidying
+- [ ] Photo album
+- [ ] Check scenic drives
+- [ ] Update vaccine schedule
+- [ ] Update home assistant - backup script and dashboard

@@ -5,5 +5,7 @@
   "newFileFolderPath": "00 Inbox",
   "attachmentFolderPath": "05 Attachments",
   "alwaysUpdateLinks": true,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "livePreview": true,
+  "propertiesInDocument": "hidden"
 }
