@@ -8,18 +8,9 @@ Hub note for the flat's network, servers and self-hosted services.
 **Secrets live in Bitwarden, never here.**
 
 ## Components
-- [[Network & IPs]] — addressing plan, reservations, Wi-Fi
-- [[Router (Synology RT6600ax)]] — SRM config, DHCP, wireless
-- [[du fibre line]] — ISP account, ONT, double NAT
-- [[NAS (Synology DS224+)]] — storage, RAID, DSM services
-- [[Pi (Pi-hole & Unbound)]] — DNS, blocking, subnet router
-- [[Home Assistant]] — automations, alerts, dashboards
-- [[Docker media stack]] — gluetun, qBittorrent, *arrs, Jellyfin
-- [[Reverse proxy & certificates]] — NPM, wildcard cert, proxy hosts
-- [[Tailscale]] — remote access
-- [[Backups]] — what is backed up, where, and how to restore
-- [[Runbook]] — symptom-first troubleshooting
-- [[Hardware & purchases]] — kit owned, warranties, pending
+```dataviewjs
+const folder = dv.current().file.folder + "/" + dv.current().file.name; dv.list(dv.pages(`"${folder}"`) .sort(p => p.file.name) .map(p => p.file.link));
+```
 
 ## Design principles
 - One SSID, one LAN; everything behind the Synology router, not the du box.
@@ -37,9 +28,5 @@ Hub note for the flat's network, servers and self-hosted services.
 
 ## Notes from daily log
 ```dataview
-LIST
-FROM "01 Daily"
-WHERE contains(file.outlinks, this.file.link)
-SORT file.name DESC
-LIMIT 10
+LIST FROM [[]] AND "01 Daily" SORT file.name DESC LIMIT 10
 ```

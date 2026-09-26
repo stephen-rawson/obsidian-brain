@@ -7,16 +7,16 @@ updated: 2026-09-25
 
 **Rule: 3 copies, 2 media, 1 off-site.** Off-site is the remaining gap.
 
-| Data | Primary | Copy 1 | Copy 2 |
-|---|---|---|---|
-| NAS shares (configs, docs, backups folder) | NAS RAID 1 | Hyper Backup → USB SSD (weekly) | *(todo: B2 / C2)* |
-| Home Assistant | HA host | daily backup → NAS `ha-backups` | via Hyper Backup |
-| Pi-hole + Unbound config | Pi | weekly script → NAS `backups/pihole` | via Hyper Backup |
-| Pi OS image | — | monthly `dd` → NAS | via Hyper Backup |
-| Router config | router | manual `.dss` → NAS `backups/router` | via Hyper Backup |
-| Bitwarden vault | Bitwarden cloud | weekly CLI export → NAS `backups/bitwarden` | Proton Drive |
-| Obsidian vault | laptop | Git (private repo) | LiveSync → NAS *(planned)* |
-| Media library | NAS | **not backed up** (re-obtainable) | — |
+| Data                                       | Primary         | Copy 1                               | Copy 2                     |
+| ------------------------------------------ | --------------- | ------------------------------------ | -------------------------- |
+| NAS shares (configs, docs, backups folder) | NAS RAID 1      | Hyper Backup → USB SSD (weekly)      | *(todo: B2 / C2)*          |
+| Home Assistant                             | HA host         | daily backup → NAS `ha-backups`      | via Hyper Backup           |
+| Pi-hole + Unbound config                   | Pi              | weekly script → NAS `pi-backups`     | via Hyper Backup           |
+| Pi OS image                                | —               | monthly `dd` → NAS                   | via Hyper Backup           |
+| Router config                              | router          | manual `.dss` → NAS `router-backups` | via Hyper Backup           |
+| Bitwarden vault                            | Bitwarden cloud | weekly CLI export → NAS `bw-backups` | Proton Drive               |
+| Obsidian vault                             | laptop          | Git (private repo)                   | LiveSync → NAS *(planned)* |
+| Media library                              | NAS             | **not backed up** (re-obtainable)    | —                          |
 
 ## Keys and passphrases
 Hyper Backup encryption, HA backup encryption, Bitwarden export passphrase,
@@ -30,7 +30,6 @@ also on paper. Emergency access granted to Raya.
 Untested backups are not backups. Schedule one test per quarter.
 
 ## Powershell script for Proton Drive
-[Link]("C:\Users\steph\Scripts\001 Jobs\nas-to-proton.ps1")
 ```
 # =====================================================================
 # NAS -> Proton Drive off-site copy
