@@ -1,17 +1,8 @@
 ---
 type: area
-updated: 2026-09-25
 ---
-# Home Infrastructure
+## Overview
 
-Hub note for the flat's network, servers and self-hosted services.
-**Secrets live in Bitwarden, never here.**
-
-- One SSID, one LAN; everything behind the Synology router, not the du box.
-- Anything reachable remotely goes via Tailscale. **No port forwards, ever.**
-- Names, not IPs: `*.home.stephenrawson.uk` via NPM.
-- Config in bind mounts under `/volume1/docker/<app>`, backed up by Hyper Backup.
-- Credentials in Bitwarden; recovery keys also in Proton Drive.
 ## Links
 ```dataviewjs
 const me = dv.current().file;
@@ -26,7 +17,6 @@ if (items.length) {
     dv.paragraph("*No notes in this area yet.*");
 }
 ```
-
 ## Open Tasks
 ```dataviewjs
 const me = dv.current().file.name;

@@ -1,0 +1,5 @@
+- [ ] Self-care
+- [ ] Chores
+- [ ] Tidying
+- [ ] Photo album
+- [ ] Check scenic drives
