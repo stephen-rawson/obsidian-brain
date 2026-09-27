@@ -1,0 +1,19 @@
+- USA road trip
+- Poetry Book
+- Divemaster 
+- Safari
+- Cage dive
+- Silent retreat
+- Sell a painting
+- Play piano publicly
+- Touch palms flat on floor with straight legs
+- Squat 150kg
+- Bench 100kg
+- Do a muscle up
+- Speak another language fluently
+- Patagonia end of world
+- New Zealand Te Araroa 
+- GR11 Pyrenees
+
+- Run a marathon
+- Kilimanjaro

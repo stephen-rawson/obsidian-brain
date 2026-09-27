@@ -1,0 +1,18 @@
+- [ ] T shirt
+- [ ] Jeans
+- [ ] Cleanser
+- [ ] Moisturizer
+- [ ] Toothpaste
+- [ ] Toothbrush
+- [ ] Underwear x3
+- [ ] Black socks x3
+- [ ] Gym shorts x3
+- [ ] Gym tops x3
+- [ ] Spare work shirt
+- [ ] Vitamins
+- [ ] Huel
+- [ ] Laptop
+- [ ] Trainers
+- [ ] Running sensors
+- [ ] Passport
+- [ ] Emirates ID

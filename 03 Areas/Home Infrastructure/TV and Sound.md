@@ -1,0 +1,5 @@
+- Sony Bravia for main room
+- Apple TV x2
+- Samsung frame into bedroom, move cork board
+- Main room - [Sonos immersive set + era stands](https://www.sonos.com/en-gb/shop/premium-entertainment-set-sonos-ace-arc-ultra-black)
+- Sonos Era 300 for bedroom
