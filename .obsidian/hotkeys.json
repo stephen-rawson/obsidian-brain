@@ -2,18 +2,10 @@
   "daily-notes": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
+        "Alt",
         "Mod"
       ],
-      "key": "T"
+      "key": "D"
     }
   ],
   "editor:toggle-bullet-list": [
@@ -22,6 +14,15 @@
         "Mod"
       ],
       "key": "."
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
     }
   ]
 }
