@@ -4,5 +4,6 @@
 - [ ] Photo album
 - [ ] Check scenic drives
 - [ ] Update vaccine schedule
-- [ ] Update home assistant - backup script and dashboard
+- [ ] Update home assistant - backup script 
+- [ ] Update home assistant - dashboard
 - [ ] Transfer ios notes
