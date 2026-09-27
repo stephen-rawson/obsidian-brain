@@ -1,20 +1,18 @@
 ## Upcoming
-- Nairobi, Samburu and Mara, Oct 2026
-- Muscat(?), H1 Nov 2026
-- Weligama surf trip(?), H2 Nov 2026
-- Skiing, Jan 2027(?)
-- Skiing(?), 6-13 Feb 2027
-- Eid break (?), Mar 5-13 2027
-- AfrikaBurn Cape Town, Apr 23 - May 3 2027
-- Eid Break (?), May 14-22 2027
-- Azores, Aug 2027
-- City + Hiking Break, Oct 2027
-- Kyoto & Nakahechi Trail, May 2028
-
-## Done
-- Georgia, Sep 2026
-- Athens & Crete, Aug 2026
-- Barcelona & Pyrenees, May 2026
-- Cape Town, Apr-May 2026
-- Vienna, Apr 2026
-- Bangkok, Koh Samui & Koh Tao, Feb 2026
+- [ ] Nairobi, Samburu and Mara, Oct 2026
+- [ ] Muscat(?), H1 Nov 2026
+- [ ] Weligama surf trip(?), H2 Nov 2026
+- [ ] Skiing, Jan 2027(?)
+- [ ] Skiing(?), 6-13 Feb 2027
+- [ ] Eid break (?), Mar 5-13 2027
+- [ ] AfrikaBurn Cape Town, Apr 23 - May 3 2027
+- [ ] Eid Break (?), May 14-22 2027
+- [ ] Azores, Aug 2027
+- [ ] City + Hiking Break, Oct 2027
+- [ ] Kyoto & Nakahechi Trail, May 2028
+- [x] Georgia, Sep 2026
+- [x] Athens & Crete, Aug 2026
+- [x] Barcelona & Pyrenees, May 2026
+- [x] Cape Town, Apr-May 2026
+- [x] Vienna, Apr 2026
+- [x] Bangkok, Koh Samui & Koh Tao, Feb 2026

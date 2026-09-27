@@ -4,4 +4,9 @@
 - [ ] [[Home Infrastructure]]: [[Switch]] setup and wall drops to Apple TV
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: Consider new TV
-- [ ] [[Home Infrastructure]]:  [[Docker media stack]] setup public and private trackers
+- [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
+- [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
+- [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
+- [x] [[Home Infrastructure]]: [[Home Assistant]] update backup script to remove error
+- [ ] [[Home Infrastructure]]: [[Paperless]] setup
+- [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents
