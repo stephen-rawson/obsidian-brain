@@ -7,3 +7,5 @@
 - [ ] Update home assistant - backup script 
 - [ ] Update home assistant - dashboard
 - [ ] Transfer ios notes
+- [ ] SoH stuff
+- [ ] Gifts for trip
