@@ -4,7 +4,7 @@
 - Weligama surf trip(?), H2 Nov 2026
 - Skiing, Jan 2027(?)
 - Skiing(?), 6-13 Feb 2027
-- Scandinavia(?), Mar 5-13 2027
+- Eid break (?), Mar 5-13 2027
 - AfrikaBurn Cape Town, Apr 23 - May 3 2027
 - Eid Break (?), May 14-22 2027
 - Azores, Aug 2027
