@@ -14,6 +14,5 @@
 - Patagonia end of world
 - New Zealand Te Araroa 
 - GR11 Pyrenees
-
 - Run a marathon
 - Kilimanjaro
