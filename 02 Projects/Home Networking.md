@@ -8,7 +8,7 @@
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
 - [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
 - [x] [[Home Infrastructure]]: [[Home Assistant]] update backup script to remove error
-- [ ] [[Home Infrastructure]]: [[Paperless]] setup incl. mobile, migration and Obsidian note
+- [x] [[Home Infrastructure]]: [[Paperless]] setup incl. mobile, migration and Obsidian note
 - [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] protondrive backup heartbeat
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] certificate expiry tracker
