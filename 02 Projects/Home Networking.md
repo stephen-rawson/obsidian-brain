@@ -12,3 +12,5 @@
 - [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] protondrive backup heartbeat
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] certificate expiry tracker
+- [ ] [[Home Infrastructure]]: [[Immich]] for photos indexing and backup
+- [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
