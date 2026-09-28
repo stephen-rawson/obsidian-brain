@@ -9,6 +9,8 @@
 - [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
 - [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
+- [ ] [[Home Infrastructure]]: [[Paperless]] add email support
+- [ ] [[Home Infrastructure]]: [[Paperless]] add ollama query surface
 - [x] [[Home Infrastructure]]: [[Home Assistant]] update backup script to remove error
 - [x] [[Home Infrastructure]]: [[Paperless]] setup incl. mobile, migration and Obsidian note
 - [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents
