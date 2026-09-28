@@ -26,8 +26,7 @@ if (items.length) {
     dv.paragraph("*No notes in this area yet.*");
 }
 ```
-
-## Open Tasks
+## Linked Tasks
 ```dataviewjs
 const me = dv.current().file.name;
 const tasks = dv.pages()
