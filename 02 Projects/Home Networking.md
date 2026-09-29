@@ -1,7 +1,7 @@
 ## Tasks
 - [ ] [[Home Infrastructure]]: Cabinet build
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
-- [ ] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
+- [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
 - [ ] [[Home Infrastructure]]: [[UPS]] install and NUT integration
 - [ ] [[Home Infrastructure]]: [[Switch]] setup and wall drops to Apple TV
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
