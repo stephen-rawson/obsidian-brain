@@ -1,15 +1,17 @@
 ## Tasks
 - [ ] [[Home Infrastructure]]: Cabinet build
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
+- [ ] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
 - [ ] [[Home Infrastructure]]: [[UPS]] install and NUT integration
 - [ ] [[Home Infrastructure]]: [[Switch]] setup and wall drops to Apple TV
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
-- [ ] [[Home Infrastructure]]: Consider new TV
+- [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
 - [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
 - [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
 - [ ] [[Home Infrastructure]]: [[Paperless]] add email support
 - [ ] [[Home Infrastructure]]: [[Paperless]] add ollama query surface
+- [ ] [[Home Infrastructure]]: [[Mac Mini]] set up fully as headless server under router/switch
 - [x] [[Home Infrastructure]]: [[Home Assistant]] update backup script to remove error
 - [x] [[Home Infrastructure]]: [[Paperless]] setup incl. mobile, migration and Obsidian note
 - [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents

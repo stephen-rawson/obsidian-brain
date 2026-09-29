@@ -10,25 +10,24 @@
 
 \---
 
+## 1. Life Administration
+- [ ] English will + 2x PoA
+- [ ] UAE police clearance + attestation + apostille
+- [ ] UAE will
 
+## 2. Clothing and Accessories
+- [ ] Suited and booted - grey suit
+- [ ] Antonio - blue suit
 
-## 1\.
+## 3. Lifestyle
+- [ ] Custom IEMs
+- [ ] Musicians earplugs
 
-These expire on departure. Highest priority regardless of everything else.
-
-|\[ ]|Item|Upfront|Recurring|
-|-|-|-|-|
-|\[ ]|English will + 2× LPA|£1,200|—|
-|\[ ]|UAE police clearance, attestation, apostille|£500|—|
-|\[ ]|Suited \& Booted — test order (suit, 2 trousers, 3 shirts)|£2,000–3,000|—|
-|\[ ]|Remaining tailoring (navy suit, odd jacket, shirts)|£3,000–5,000|—|
-|\[ ]|Custom IEMs + musician's earplugs (one set of impressions)|£1,200–2,500|£120 cables|
-
-\---
-
-
-
-## 2\.
+## 4. Health
+- [ ] Wisdom tooth consultation / extraction
+- [ ] Retinal and IOP baseline scan
+- [ ] Mole mapping
+- [ ] Vaccinations
 
 |\[ ]|Item|Upfront|Recurring|
 |-|-|-|-|
