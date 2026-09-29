@@ -19,3 +19,5 @@
 - [x] [[Home Infrastructure]]: [[Home Assistant]] cert expiry tracker dashboard warning and notification
 - [ ] [[Home Infrastructure]]: [[Immich]] for photos indexing and backup
 - [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
+- [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
+- [ ] [[Home Infrastructure]]: [[Switch]] reduce fan speed noise
