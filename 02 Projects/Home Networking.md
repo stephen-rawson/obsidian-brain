@@ -2,7 +2,7 @@
 - [ ] [[Home Infrastructure]]: Cabinet build
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
 - [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
-- [ ] [[Home Infrastructure]]: [[UPS]] install and NUT integration
+- [x] [[Home Infrastructure]]: [[UPS]] install and NUT integration
 - [ ] [[Home Infrastructure]]: [[Switch]] setup and wall drops to Apple TV
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
@@ -11,7 +11,7 @@
 - [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
 - [ ] [[Home Infrastructure]]: [[Paperless]] add email support
 - [ ] [[Home Infrastructure]]: [[Paperless]] add ollama query surface
-- [ ] [[Home Infrastructure]]: [[Mac Mini]] set up fully as headless server under router/switch
+- [x] [[Home Infrastructure]]: [[Mac Mini]] set up fully as headless server under router/switch
 - [x] [[Home Infrastructure]]: [[Home Assistant]] update backup script to remove error
 - [x] [[Home Infrastructure]]: [[Paperless]] setup incl. mobile, migration and Obsidian note
 - [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents
