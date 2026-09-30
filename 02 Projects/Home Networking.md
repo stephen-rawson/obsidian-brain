@@ -8,6 +8,7 @@
 - [x] [[Home Infrastructure]]: [[Switch & UniFi controller]] wall drops to TV 
 - [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] and [[Switch & UniFi controller]] reserve IPs
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
+- [ ] [[Home Infrastructure]]: [[Home Assistant]] integrate TV and appletv
 - [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
 - [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
