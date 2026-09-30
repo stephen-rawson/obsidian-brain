@@ -22,46 +22,51 @@ du enclosure and are **still fed by the du box**, i.e. on 192.168.70.x, not the
 LAN. Moving them onto the switch is part of the cabinet rewire.
 
 ## Addressing plan (192.168.1.0/24)
-| Range | Use | Assigned by |
-|---|---|---|
-| .1 | Router | fixed |
-| .2–.19 | Core infrastructure | DHCP reservation |
-| .20–.199 | Clients + grandfathered infra (below) | DHCP pool |
-| .200–.254 | Self-assigned / macvlan | static, outside pool |
+| Range     | Use                                   | Assigned by          |
+| --------- | ------------------------------------- | -------------------- |
+| .1        | Router                                | fixed                |
+| .2–.19    | Core infrastructure                   | DHCP reservation     |
+| .20–.199  | Clients + grandfathered infra (below) | DHCP pool            |
+| .200-219  | Semi-fixed infrastructure (e.g., TV)  | DHCP reservation     |
+| .220–.254 | Self-assigned / macvlan               | static, outside pool |
 
 **Lesson:** a reservation inside the pool only works if nothing already holds
 that address. The Mac Mini was first reserved at .43, which another device had
 leased, so it silently stayed dynamic. New infrastructure goes in **.2–.19**.
 
 ## Fixed addresses
-| Name | IP | MAC | Method | Notes |
-|---|---|---|---|---|
-| router | .1 | 90:09:d0:40:2a:46 | fixed | Synology RT6600ax |
-| switch | .10 | 70:a7:41:f6:ed:d3 | reservation | UniFi USW-Pro-24-PoE |
-| mini | .15 | 14:98:77:83:ae:5f | reservation | Mac Mini M1 8 GB; UniFi controller, Ollama |
-| pihole | .31 | d8:3a:dd:66:69:a5 | reservation | *grandfathered in pool* |
-| nas | .42 | 90:09:d0:54:2c:55 | reservation | *grandfathered in pool*; eth0 / LAN 1 |
-| hue | .66 | ec:b5:fa:94:3b:36 | reservation | *grandfathered in pool*; 10/100 port only |
-| homeassistant | .119 | 20:f8:3b:02:90:e0 | reservation | *grandfathered in pool* |
-| airgradient-living | .141 | d8:3b:da:1d:59:28 | reservation | *grandfathered in pool* |
-| airgradient-master | .150 | d8:3b:da:1f:7a:34 | reservation | *grandfathered in pool* |
-| npm | .250 | 02:42:c0:a8:01:fa | static | NPM macvlan on the NAS |
-| du ONT | 192.168.70.1 | — | ISP | |
+| Name               | IP           | MAC               | Method      | Notes                                      |
+| ------------------ | ------------ | ----------------- | ----------- | ------------------------------------------ |
+| router             | .1           | 90:09:d0:40:2a:46 | fixed       | Synology RT6600ax                          |
+| switch             | .10          | 70:a7:41:f6:ed:d3 | reservation | UniFi USW-Pro-24-PoE                       |
+| mini               | .15          | 14:98:77:83:ae:5f | reservation | Mac Mini M1 8 GB; UniFi controller, Ollama |
+| pihole             | .31          | d8:3a:dd:66:69:a5 | reservation | *grandfathered in pool*                    |
+| nas                | .42          | 90:09:d0:54:2c:55 | reservation | *grandfathered in pool*; eth0 / LAN 1      |
+| hue                | .66          | ec:b5:fa:94:3b:36 | reservation | *grandfathered in pool*; 10/100 port only  |
+| homeassistant      | .119         | 20:f8:3b:02:90:e0 | reservation | *grandfathered in pool*                    |
+| airgradient-living | .141         | d8:3b:da:1d:59:28 | reservation | *grandfathered in pool*                    |
+| airgradient-master | .150         | d8:3b:da:1f:7a:34 | reservation | *grandfathered in pool*                    |
+| tv                 | .201         | 00:c3:f4:a9:bf:89 | reservation |                                            |
+| appletv            | .202         | c4:f7:c1:35:05:04 | reservation |                                            |
+| playstation        | .203         | 5c:84:3c:a6:a6:b2 | reservation |                                            |
+| npm                | .250         | 02:42:c0:a8:01:fa | static      | NPM macvlan on the NAS                     |
+| du ONT             | 192.168.70.1 | —                 | ISP         |                                            |
 
 **Grandfathered:** Pi-hole, NAS, HA, Hue and the AirGradients predate the plan
 and are referenced in many configs (router DNS, Tailscale nameserver, HA
 integrations, gluetun firewall, NPM upstreams). They stay where they are.
 
 ## Switch port map (UniFi)
-| Port | Device | Speed | PoE |
-|---|---|---|---|
-| 1 | Router uplink | GbE | off |
-| 2 | NAS | GbE | off |
-| 3 | Pi-hole | GbE | off |
-| 4 | Home Assistant | GbE | off |
-| 5 | Mac Mini | GbE | off |
-| 6 | Hue Bridge | FE (normal) | off |
-| 7–24 | spare | — | off |
+| Port | Device         | Speed       | PoE |
+| ---- | -------------- | ----------- | --- |
+| 1    | Router uplink  | GbE         | off |
+| 2    | NAS            | GbE         | off |
+| 3    | Pi-hole        | GbE         | off |
+| 4    | Home Assistant | GbE         | off |
+| 5    | Mac Mini       | GbE         | off |
+| 6    | Hue Bridge     | FE (normal) | off |
+| 7    | TV (D02)       | GbE         | off |
+| 8–24 | spare          | —           | off |
 
 ## Name resolution
 - **Pi-hole local DNS:** `<name>.lan` for every row above, plus `unifi → .15`
