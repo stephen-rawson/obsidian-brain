@@ -1,10 +1,11 @@
 ## Tasks
 - [ ] [[Home Infrastructure]]: Cabinet build
+- [ ] [[Home Infrastructure]]: add [[Obsidian & LiveSync]] aliases
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
 - [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
 - [x] [[Home Infrastructure]]: [[UPS]] install and NUT integration
-- [ ] [[Home Infrastructure]]: [[Switch & UniFi controller]] setup and incl. obsidian
-- [ ] [[Home Infrastructure]]: [[Switch & UniFi controller]] wall drops to Apple TV 
+- [x] [[Home Infrastructure]]: [[Switch & UniFi controller]] setup and incl. obsidian
+- [ ] [[Home Infrastructure]]: [[Switch & UniFi controller]] wall drops to TV 
 - [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] and [[Switch & UniFi controller]] reserve IPs
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
