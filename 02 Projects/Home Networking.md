@@ -3,7 +3,7 @@
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
 - [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
 - [x] [[Home Infrastructure]]: [[UPS]] install and NUT integration
-- [ ] [[Home Infrastructure]]: [[Switch]] setup and incl. obsidian and fan speed/noise
+- [ ] [[Home Infrastructure]]: [[Switch]] setup and incl. obsidian
 - [ ] [[Home Infrastructure]]: [[Switch]] wall drops to Apple TV 
 - [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] and [[Switch]] ensure all relevant IPs are reserved
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
@@ -22,5 +22,5 @@
 - [ ] [[Home Infrastructure]]: [[Immich]] for photos indexing and backup
 - [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
 - [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
-- [ ] [[Home Infrastructure]]: Check beep settings for all services
+- [x] [[Home Infrastructure]]: Check beep settings for all services
 - [ ] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches
