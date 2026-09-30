@@ -1,12 +1,5 @@
 ## Tasks
 - [ ] [[Home Infrastructure]]: Cabinet build
-- [ ] [[Home Infrastructure]]: add [[Obsidian & LiveSync]] aliases
-- [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
-- [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
-- [x] [[Home Infrastructure]]: [[UPS]] install and NUT integration
-- [x] [[Home Infrastructure]]: [[Switch & UniFi controller]] setup and incl. obsidian
-- [x] [[Home Infrastructure]]: [[Switch & UniFi controller]] wall drops to TV 
-- [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] and [[Switch & UniFi controller]] reserve IPs
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] integrate TV and appletv
 - [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
@@ -15,14 +8,21 @@
 - [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
 - [ ] [[Home Infrastructure]]: [[Paperless]] add email support
 - [ ] [[Home Infrastructure]]: [[Paperless]] add ollama query surface
+- [ ] [[Home Infrastructure]]: [[Immich]] for photos indexing and backup
+- [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
+- [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
+- [ ] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches
+- [x] [[Home Infrastructure]]: add [[Obsidian & LiveSync|notes]] aliases
+- [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
+- [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
+- [x] [[Home Infrastructure]]: [[UPS]] install and NUT integration
+- [x] [[Home Infrastructure]]: [[Switch & UniFi controller]] setup and incl. obsidian
+- [x] [[Home Infrastructure]]: [[Switch & UniFi controller]] wall drops to TV 
+- [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] and [[Switch & UniFi controller]] reserve IPs
+- [x] [[Home Infrastructure]]: Check beep settings for all services
 - [x] [[Home Infrastructure]]: [[Mac Mini]] set up fully as headless server under router/switch
 - [x] [[Home Infrastructure]]: [[Home Assistant]] update backup script to remove error
 - [x] [[Home Infrastructure]]: [[Paperless]] setup incl. mobile, migration and Obsidian note
 - [x] [[Home Infrastructure]]: [[Home Assistant]] dashboard update to remove torrents
 - [x] [[Home Infrastructure]]: [[Home Assistant]] protondrive backup dashboard warning and notification
 - [x] [[Home Infrastructure]]: [[Home Assistant]] cert expiry tracker dashboard warning and notification
-- [ ] [[Home Infrastructure]]: [[Immich]] for photos indexing and backup
-- [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
-- [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
-- [x] [[Home Infrastructure]]: Check beep settings for all services
-- [ ] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches

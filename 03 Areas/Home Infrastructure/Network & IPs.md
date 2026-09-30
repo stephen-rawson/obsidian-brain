@@ -1,9 +1,12 @@
 ---
 type: note
 updated: 2026-09-30
-aliases: [IP plan, addressing, DHCP reservations, LAN]
+aliases:
+  - IP plan
+  - addressing
+  - DHCP reservations
+  - LAN
 ---
-
 # Network & IPs
 
 ## Topology

@@ -1,6 +1,8 @@
 ---
 type: note
 updated: 2026-09-25
+aliases:
+  - router
 ---
 
 # Router — Synology RT6600ax (SRM)

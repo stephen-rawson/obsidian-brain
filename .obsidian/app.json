@@ -7,5 +7,5 @@
   "alwaysUpdateLinks": true,
   "openBehavior": "daily",
   "livePreview": true,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "visible"
 }

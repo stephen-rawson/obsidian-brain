@@ -1,6 +1,8 @@
 ---
 type: note
 updated: 2026-09-25
+aliases:
+  - pi
 ---
 
 # Raspberry Pi — Pi-hole, Unbound, Tailscale subnet router

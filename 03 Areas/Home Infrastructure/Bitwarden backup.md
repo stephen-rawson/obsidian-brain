@@ -1,6 +1,9 @@
 ---
 type: note
 updated: 2026-09-26
+aliases:
+  - bw
+  - bitwarden
 ---
 
 # Bitwarden backup
