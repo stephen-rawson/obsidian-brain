@@ -12,6 +12,7 @@
 - [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
 - [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
 - [ ] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches
+- [ ] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
 - [x] [[Home Infrastructure]]: add [[Obsidian & LiveSync|notes]] aliases
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
 - [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
