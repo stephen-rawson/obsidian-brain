@@ -1,5 +1,6 @@
 ## Tasks
-- [ ] [[Home Infrastructure]]: [[Paperless]] add email support
+- [x] [[Home Infrastructure]]: [[Paperless]] add email support
+- [ ] [[Home Infrastructure]]: Extract [[Reverse proxy & certificates|npm]] from [[Docker media stack]]
 - [ ] [[Home Infrastructure]], [[Home Assistant]]: Test art mode
 - [ ] [[Home Infrastructure]], [[Home Assistant]]: Hosting scene
 - [ ] [[Home Infrastructure]]: Cabinet build
