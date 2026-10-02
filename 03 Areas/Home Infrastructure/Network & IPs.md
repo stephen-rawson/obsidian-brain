@@ -42,6 +42,7 @@ leased, so it silently stayed dynamic. New infrastructure goes in **.2–.19**.
 | ------------------ | ------------ | ----------------- | ----------- | ------------------------------------------ |
 | router             | .1           | 90:09:d0:40:2a:46 | fixed       | Synology RT6600ax                          |
 | switch             | .10          | 70:a7:41:f6:ed:d3 | reservation | UniFi USW-Pro-24-PoE                       |
+| zigbee             | .11          | 68:25:dd:2e:33:2b | reservation | SLZB-MR1                                   |
 | mini               | .15          | 14:98:77:83:ae:5f | reservation | Mac Mini M1 8 GB; UniFi controller, Ollama |
 | pihole             | .31          | d8:3a:dd:66:69:a5 | reservation | *grandfathered in pool*                    |
 | nas                | .42          | 90:09:d0:54:2c:55 | reservation | *grandfathered in pool*; eth0 / LAN 1      |
@@ -69,7 +70,8 @@ integrations, gluetun firewall, NPM upstreams). They stay where they are.
 | 5    | Mac Mini       | GbE         | off |
 | 6    | Hue Bridge     | FE (normal) | off |
 | 7    | TV (D02)       | GbE         | off |
-| 8–24 | spare          | —           | off |
+| 8    | Zigbee         | FE          | on  |
+| 9–24 | spare          | —           | off |
 
 ## Name resolution
 - **Pi-hole local DNS:** `<name>.lan` for every row above, plus `unifi → .15`
