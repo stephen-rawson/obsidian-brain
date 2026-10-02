@@ -1,5 +1,8 @@
 ## Tasks
 - [ ] [[Home Infrastructure]]: Cabinet build
+- [ ] [[Home Assistant]]: Test art mode
+- [ ] [[Home Assistant]]: Hosting scene
+- [ ] [[Home Infrastructure]]: Wifi scanner
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] integrate TV and appletv
 - [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
