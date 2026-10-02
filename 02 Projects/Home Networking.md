@@ -1,21 +1,19 @@
 ## Tasks
-- [ ] [[Home Infrastructure]]: Cabinet build
+- [ ] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
+- [ ] [[Home Infrastructure]]: [[Paperless]] add email support
 - [ ] [[Home Assistant]]: Test art mode
 - [ ] [[Home Assistant]]: Hosting scene
-- [ ] [[Home Infrastructure]]: Wifi scanner
-- [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
-- [ ] [[Home Infrastructure]]: [[Home Assistant]] integrate TV and appletv
-- [ ] [[Home Infrastructure]]: New TV and move frame to bedroom?
-- [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
+- [ ] [[Home Infrastructure]]: Cabinet build
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
-- [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
-- [ ] [[Home Infrastructure]]: [[Paperless]] add email support
 - [ ] [[Home Infrastructure]]: [[Paperless]] add ollama query surface
 - [ ] [[Home Infrastructure]]: [[Immich]] for photos indexing and backup
-- [ ] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
-- [ ] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
-- [ ] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches
-- [ ] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
+- [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
+- [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
+- [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
+- [x] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
+- [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
+- [x] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches
+- [x] [[Home Infrastructure]]: [[Home Assistant]] integrate TV and appletv
 - [x] [[Home Infrastructure]]: add [[Obsidian & LiveSync|notes]] aliases
 - [x] [[Home Infrastructure]]: Add dashboard for cert expiry and proton backup in [[Home Assistant]]
 - [x] [[Home Infrastructure]]: [[Docker media stack]] fix qbittorrent error on HA dashboard permanently
