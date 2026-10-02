@@ -1,7 +1,7 @@
 ## Tasks
 - [ ] [[Home Infrastructure]]: [[Paperless]] add email support
-- [ ] [[Home Assistant]]: Test art mode
-- [ ] [[Home Assistant]]: Hosting scene
+- [ ] [[Home Infrastructure]], [[Home Assistant]]: Test art mode
+- [ ] [[Home Infrastructure]], [[Home Assistant]]: Hosting scene
 - [ ] [[Home Infrastructure]]: Cabinet build
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
 - [ ] [[Home Infrastructure]]: [[Paperless]] add ollama query surface
