@@ -1,5 +1,4 @@
 ## Tasks
-- [ ] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
 - [ ] [[Home Infrastructure]]: [[Paperless]] add email support
 - [ ] [[Home Assistant]]: Test art mode
 - [ ] [[Home Assistant]]: Hosting scene
@@ -10,6 +9,7 @@
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: [[Robot Cleaner]]
 - [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
+- [x] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
 - [x] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
 - [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
 - [x] [[Home Infrastructure]]: [[Zigbee]] setup for aqara switches
