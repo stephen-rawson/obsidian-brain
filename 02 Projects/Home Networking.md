@@ -6,6 +6,7 @@
 - [ ] [[Home Infrastructure]]: Cabinet build
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
 - [ ] [[Home Infrastructure]]: [[Paperless]] add Claude integration
+- [ ] [[Home Infrastructure]]: Budgeting application reading Citi emails
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
 - [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
 - [x] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini

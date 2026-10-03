@@ -6,10 +6,10 @@
 - [ ] Skiing(?), 6-13 Feb 2027
 - [ ] Eid break (?), Mar 5-13 2027
 - [ ] AfrikaBurn Cape Town, Apr 23 - May 3 2027
-- [ ] Eid Break (?), May 14-22 2027
+- [ ] UK Eid Break, May 14-22 2027
 - [ ] Azores, Aug 2027
-- [ ] City + Hiking Break, Oct 2027
-- [ ] Kyoto & Nakahechi Trail, May 2028
+- [ ] City + Hiking Break
+- [ ] Kyoto & Nakahechi Trail
 - [x] Georgia, Sep 2026
 - [x] Athens & Crete, Aug 2026
 - [x] Barcelona & Pyrenees, May 2026
