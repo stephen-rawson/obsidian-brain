@@ -1,6 +1,6 @@
 ---
 type: note
-updated: 2026-09-30
+updated: 2026-10-03
 aliases: [switch, UniFi, USW-Pro-24-PoE, UniFi controller, unifi]
 ---
 
@@ -28,20 +28,22 @@ router's LAN port and sits on the UPS.
 | 4 | Home Assistant | GbE | off |
 | 5 | Mac Mini | GbE | off |
 | 6 | Hue Bridge | FE | off |
-| 7–24 | spare | — | off |
+| 7 | TV wall drop → unmanaged switch (Frame TV, Apple TV, PlayStation) | GbE | off |
+| 8 | [[Zigbee]] coordinator (SMLIGHT) | GbE | **on** |
+| 9–24 | spare | — | off |
 
-- **PoE is off everywhere.** Nothing in the flat is PoE-powered. Enable per port
+- **PoE is on for port 8 only** (the Zigbee coordinator). Enable it per port
   only when something needs it (e.g. a camera). PoE only energises after
   detecting a compatible device, so leaving it on is not dangerous, just untidy
   and marginally warmer.
 - **FE on the Hue Bridge is normal** — the bridge has a 10/100 port.
-- Future: patch-panel drops (TV D02, Apple TV T02, D03/T03, bedroom ×2) move onto
-  ports 7+ during the cabinet rewire. Name each port as it is patched.
+- TV wall drop is on port 7. Future: remaining patch-panel drops (D03/T03,
+  bedroom ×2) move onto ports 9+ during the cabinet rewire. Name each port as it is patched.
 
 ## Controller (UniFi Network)
 | | |
 |---|---|
-| Host | Mac Mini, Docker container `unifi` |
+| Host | Mac Mini, Docker container `unifi` (`jacobalberty/unifi:latest`, bare `docker run`, `unless-stopped`, MongoDB bundled, data `~/unifi` → `/unifi`) |
 | URL | `https://192.168.1.15:8443` |
 | Account | local admin → Bitwarden ("UniFi controller") |
 | Inform host | overridden to `unifi` (Pi-hole: `unifi → 192.168.1.15`) |
@@ -93,6 +95,16 @@ router's LAN port and sits on the UPS.
 - A **travel adapter** on the switch's original US cord broke the earth path and
   caused a tingle on the metal case. Replaced with an earthed C13 lead. No travel
   adapters anywhere in the cabinet.
+- **Never `docker rm` the `unifi` container** until it's in compose: the run
+  command isn't recorded, and `:latest` can pull a newer controller whose
+  backups won't restore into an older one.
+
+## To do
+- [ ] Move `unifi` to `~/unifi/compose.yaml` with a pinned tag (at home, after
+      the trip). Capture ports/env first with `docker inspect unifi`; redact secrets
+- [ ] Reconcile controller URL: this note says `https://192.168.1.15:8443`,
+      [[Mac Mini]] says `switch.home.stephenrawson.uk`
 
 ## Related
-[[Network & IPs]] · [[Home Infrastructure]] · [[UPS & power]] · [[Tailscale]]
+[[Network & IPs]] · [[Home Infrastructure]] · [[UPS & power]] · [[Tailscale]] ·
+[[Mac Mini]] · [[Docker commands]]

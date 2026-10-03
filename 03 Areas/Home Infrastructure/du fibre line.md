@@ -1,6 +1,6 @@
 ---
 type: note
-updated: 2026-09-25
+updated: 2026-10-03
 aliases:
   - du
 ---
@@ -17,7 +17,7 @@ aliases:
 - **Double NAT**: ONT routes 192.168.70.0/24, Synology WAN gets 192.168.70.2.
 - No bridge mode or DMZ yet. Costs: relayed connections for NAT traversal,
   no inbound ports. Tailscale makes this mostly irrelevant.
-- Wall drops are still patched into the ONT rather than the LAN switch.
+- TV wall drops now run from the UniFi switch (Sept 2026); see [[Switch & UniFi controller]] for the remaining drops.
 
 ## To do
 - [ ] Ask du for **bridge mode** (or DMZ to the Synology WAN IP + DHCP reservation)
