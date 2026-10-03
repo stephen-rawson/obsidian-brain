@@ -48,7 +48,6 @@
 - [ ] London library life
 - [ ] RGS
 - [ ] National trust
-- [ ] RAC
 
 ## 9. Other memberships
 - [ ] Manchester united
