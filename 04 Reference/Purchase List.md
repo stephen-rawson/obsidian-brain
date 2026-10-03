@@ -6,7 +6,7 @@
 - [ ] UAE will
 
 ## 2. Clothing and Accessories
-- [ ] Suited and booted - grey suit
+- [x] Suited and booted - grey suit
 - [ ] Antonio - blue suit
 
 ## 3. Lifestyle
@@ -44,12 +44,10 @@
 - [ ] Lange Saxonia Thin; partner
 - [ ] Champagne/wine in storage
 
-## 8. Lifetime memberships
+## 8. Memberships
 - [ ] London library life
 - [ ] RGS
 - [ ] National trust
-
-## 9. Other memberships
 - [ ] Manchester united
 - [ ] Chatham house
 - [ ] Art fund national pass

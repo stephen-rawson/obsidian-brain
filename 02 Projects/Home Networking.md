@@ -1,6 +1,4 @@
 ## Tasks
-- [x] [[Home Infrastructure]]: [[Paperless]] add email support
-- [x] [[Home Infrastructure]]: Extract [[Reverse proxy & certificates|npm]] from [[Docker media stack]]
 - [ ] [[Home Infrastructure]], [[Home Assistant]]: Test art mode
 - [ ] [[Home Infrastructure]], [[Home Assistant]]: Hosting scene
 - [ ] [[Home Infrastructure]]: Cabinet build
@@ -8,7 +6,8 @@
 - [ ] [[Home Infrastructure]]: [[Paperless]] add Claude integration
 - [ ] [[Home Infrastructure]]: Budgeting application reading Citi emails
 - [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
-- [ ] [[Home Infrastructure]]: [[Docker media stack]] setup public and private trackers
+- [x] [[Home Infrastructure]]: [[Paperless]] add email support
+- [x] [[Home Infrastructure]]: Extract [[Reverse proxy & certificates|npm]] from [[Docker media stack]]
 - [x] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
 - [x] [[Home Infrastructure]]: [[ollama]] on [[Mac Mini]]
 - [x] [[Home Infrastructure]]: [[Pi (Pi-hole & Unbound)]] add backup DNS
