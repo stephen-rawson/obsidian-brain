@@ -1,11 +1,11 @@
 ## Tasks
 - [ ] [[Home Infrastructure]], [[Home Assistant]]: Test art mode
 - [ ] [[Home Infrastructure]], [[Home Assistant]]: Hosting scene
-- [ ] [[Home Infrastructure]]: Cabinet build
+- [ ] [[Home Infrastructure]]: Cabinet
 - [ ] [[Home Infrastructure]]: [[Reverse Osmosis Water Filter]]: [RO water filter](https://waterdrop.ae/products/x14-undersink-reverse-osmosis-system-remineralized-and-alkaline-water-purifier)
-- [ ] [[Home Infrastructure]]: [[Paperless]] add Claude integration
-- [ ] [[Home Infrastructure]]: Budgeting application reading Citi emails
-- [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM migration
+- [ ] [[Home Infrastructure]]: [[Paperless]] add Claude
+- [ ] [[Home Infrastructure]]: Budgeting application
+- [ ] [[Home Infrastructure]]: [[Home Assistant]] SRM
 - [x] [[Home Infrastructure]]: [[Paperless]] add email support
 - [x] [[Home Infrastructure]]: Extract [[Reverse proxy & certificates|npm]] from [[Docker media stack]]
 - [x] [[Home Infrastructure]]: Move [[Off-site backup (Proton Drive)]] onto mac mini
